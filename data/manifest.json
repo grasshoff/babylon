@@ -1,0 +1,177 @@
+{
+ "slug": "babylon",
+ "facts": {
+  "dia_vols": {
+   "value": 7,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "dia_plate_vols": {
+   "value": 3,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (adrt1-plates, adrt2-plates, adrt3-plates)"
+  },
+  "dia_pages": {
+   "value": 3546,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "dia_plate_pages": {
+   "value": 307,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "dia_lines": {
+   "value": 44753,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "dia_tablets": {
+   "value": 2333,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (distinct tablet ids in lines)"
+  },
+  "dia_plates": {
+   "value": 1126,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (plates table)"
+  },
+  "dia_ocr_vols": {
+   "value": 5,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (status.json ocr_partitur)"
+  },
+  "dia_textlayer_vols": {
+   "value": 2,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (status.json ocr_partitur)"
+  },
+  "lines_adrt1": {
+   "value": 4033,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "pages_adrt1": {
+   "value": 373,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "lines_adrt2": {
+   "value": 6883,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "pages_adrt2": {
+   "value": 497,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "lines_adrt3": {
+   "value": 7008,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "pages_adrt3": {
+   "value": 505,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "lines_adrt4": {
+   "value": 13473,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "pages_adrt4": {
+   "value": 669,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "lines_adrt5": {
+   "value": 4824,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "pages_adrt5": {
+   "value": 463,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "lines_adrt6": {
+   "value": 3229,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "pages_adrt6": {
+   "value": 563,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "lines_adrt7": {
+   "value": 5303,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "pages_adrt7": {
+   "value": 476,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "year_first": {
+   "value": 1988,
+   "source": "diaries.bib: year"
+  },
+  "year_last": {
+   "value": 2022,
+   "source": "diaries.bib: year"
+  },
+  "dia_tablets_123": {
+   "value": 726,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (tablets, volumes I to III)"
+  },
+  "dia_dated_123": {
+   "value": 436,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (tablets.number readable as integer, volumes I to III)"
+  },
+  "dia_peak_dec": {
+   "value": -190,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "dia_peak_n": {
+   "value": 34,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "dia_peak_range": {
+   "value": "−190 bis −181",
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "dia_span_from": {
+   "value": 652,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (number −651 is 652 B.C.)"
+  },
+  "dia_span_to": {
+   "value": 61,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "spec_id": {
+   "value": "adrt1-0033",
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "spec_page": {
+   "value": 90,
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "spec_l9": {
+   "value": "[last part of the night, the moon] stood 2 ½ cubits behind Saturn to the east. The 22nd, Mercury's first appearance in the east in Sagittarius. Around the 22nd, when Mars [became stationary] in the west [....]",
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (lines.translation)"
+  },
+  "spec_l12": {
+   "value": "[....] .... The 28th, .... [....] the equivalent (of 1 shekel of silver was): barley, 1 pān 2 sūt 4 ½ qa, at the end [of the month, ....]",
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (lines.translation)"
+  },
+  "bab_docs": {
+   "value": 22,
+   "source": "PDAI babylonian-astronomy: directories with pdai-config.json"
+  },
+  "bab_pages": {
+   "value": 5631,
+   "source": "PDAI babylonian-astronomy: page folders"
+  },
+  "neu_docs": {
+   "value": 6,
+   "source": "PDAI neugebauer: directories with pdai-config.json"
+  },
+  "neu_pages": {
+   "value": 1604,
+   "source": "PDAI neugebauer: page folders"
+  },
+  "bab_undated": {
+   "value": 14,
+   "source": "PDAI babylonian-astronomy: pdai-config.json year missing"
+  },
+  "bab_big": {
+   "value": 15,
+   "source": "PDAI babylonian-astronomy: works with at least 100 page folders"
+  }
+ },
+ "notes": [
+  "Volumes I to III number their tablets by year; the readable year numbers cover only part of the tablet rows (see dia_dated_123 versus dia_tablets_123).",
+  "Five files Hungernd..Hungernde carry the title of the Astronomical Diaries without a volume statement; their assignment to volumes is open."
+ ]
+}
