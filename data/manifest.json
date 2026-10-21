@@ -31,11 +31,11 @@
   },
   "dia_ocr_vols": {
    "value": 5,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (status.json ocr_partitur)"
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (<vol>/pages: meta model of the first page)"
   },
   "dia_textlayer_vols": {
    "value": 2,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (status.json ocr_partitur)"
+   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (<vol>/pages: meta model pdf-text-layer)"
   },
   "lines_adrt1": {
    "value": 4033,
@@ -128,6 +128,90 @@
   "dia_span_to": {
    "value": 61,
    "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+  },
+  "ed_vol_names": {
+   "value": "I bis VII",
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (adart_tablet.volume)"
+  },
+  "ed_vol_count": {
+   "value": 7,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
+  },
+  "ed_tablets": {
+   "value": 2027,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
+  },
+  "ed_lines": {
+   "value": 55304,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
+  },
+  "ed_tokens": {
+   "value": 456642,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
+  },
+  "ed_comments": {
+   "value": 924,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
+  },
+  "ed_comments_anchored": {
+   "value": 389,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (adart_comment.target_fr_id: anchored to a line)"
+  },
+  "ed_cal_rows": {
+   "value": 629,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
+  },
+  "ed_dual": {
+   "value": 0,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (status beyond machine-read)"
+  },
+  "ed_verified": {
+   "value": 0,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
+  },
+  "ed_open_tickets": {
+   "value": 13265,
+   "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (adart_ticket)"
+  },
+  "ed_blockers": {
+   "value": 57106,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-21/<vol>.json (adart/audit.py, L0-L8)"
+  },
+  "ed_repairs": {
+   "value": 88001,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-21/<vol>.json (adart/audit.py, L0-L8)"
+  },
+  "ed_notes": {
+   "value": 31018,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-21/<vol>.json (adart/audit.py, L0-L8)"
+  },
+  "ed_blocker_free": {
+   "value": 378,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-21/<vol>.json (adart/audit.py, L0-L8)"
+  },
+  "ed_valid": {
+   "value": 2020,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-21/<vol>.json (adart/audit.py, L0-L8) (no L0-DTD finding)"
+  },
+  "ed_rules": {
+   "value": 67,
+   "source": "pdai/collections/diaries/config/audit_rules_tablet.yaml"
+  },
+  "ed_levels": {
+   "value": 9,
+   "source": "pdai/collections/diaries/config/audit_rules_tablet.yaml"
+  },
+  "br_tablets": {
+   "value": 2027,
+   "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build)"
+  },
+  "br_lines": {
+   "value": 55304,
+   "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build)"
+  },
+  "br_dated": {
+   "value": 554,
+   "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build) (tablet.jyear)"
   },
   "spec_id": {
    "value": "adrt1-0033",
