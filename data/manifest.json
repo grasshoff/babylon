@@ -3,95 +3,95 @@
  "facts": {
   "dia_vols": {
    "value": 7,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_plate_vols": {
    "value": 3,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (adrt1-plates, adrt2-plates, adrt3-plates)"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (adrt1-plates, adrt2-plates, adrt3-plates)"
   },
   "dia_pages": {
    "value": 3546,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_plate_pages": {
    "value": 307,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_lines": {
-   "value": 44753,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 51149,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_tablets": {
-   "value": 2333,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (distinct tablet ids in lines)"
+   "value": 1723,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (distinct tablet ids in lines)"
   },
   "dia_plates": {
-   "value": 1126,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (plates table)"
+   "value": 1213,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (plate: photographs and copies linked to a tablet)"
   },
   "dia_ocr_vols": {
    "value": 5,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (<vol>/pages: meta model of the first page)"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (<vol>/pages: meta model of the first page)"
   },
   "dia_textlayer_vols": {
    "value": 2,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (<vol>/pages: meta model pdf-text-layer)"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (<vol>/pages: meta model pdf-text-layer)"
   },
   "lines_adrt1": {
-   "value": 4033,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 3429,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt1": {
    "value": 373,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt2": {
-   "value": 6883,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 6027,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt2": {
    "value": 497,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt3": {
-   "value": 7008,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 7088,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt3": {
    "value": 505,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt4": {
-   "value": 13473,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 12433,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt4": {
    "value": 669,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt5": {
-   "value": 4824,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 9039,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt5": {
    "value": 463,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt6": {
-   "value": 3229,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 7885,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt6": {
    "value": 563,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt7": {
-   "value": 5303,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 5248,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt7": {
    "value": 476,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "year_first": {
    "value": 1988,
@@ -102,32 +102,36 @@
    "source": "diaries.bib: year"
   },
   "dia_tablets_123": {
-   "value": 726,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (tablets, volumes I to III)"
+   "value": 233,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (tablet editions with lines, volumes I to III)"
   },
   "dia_dated_123": {
-   "value": 436,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (tablets.number readable as integer, volumes I to III)"
+   "value": 227,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (tablet.jyear known, volumes I to III)"
   },
   "dia_peak_dec": {
    "value": -190,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_peak_n": {
-   "value": 34,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": 14,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_peak_range": {
    "value": "−190 bis −181",
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_span_from": {
    "value": 652,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (number −651 is 652 B.C.)"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (number −651 is 652 B.C.)"
   },
   "dia_span_to": {
    "value": 61,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
+  },
+  "dia_undated_123": {
+   "value": 6,
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (tablet editions of volumes I to III without a year)"
   },
   "ed_vol_names": {
    "value": "I bis VII",
@@ -138,15 +142,15 @@
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_tablets": {
-   "value": 1873,
+   "value": 1868,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_lines": {
-   "value": 51534,
+   "value": 51149,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_tokens": {
-   "value": 423730,
+   "value": 423735,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_comments": {
@@ -154,7 +158,7 @@
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_comments_anchored": {
-   "value": 223,
+   "value": 216,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (adart_comment.target_fr_id: anchored to a line)"
   },
   "ed_cal_rows": {
@@ -170,28 +174,28 @@
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_open_tickets": {
-   "value": 7801,
+   "value": 7793,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (adart_ticket)"
   },
   "ed_blockers": {
-   "value": 42341,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-24/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 42285,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_repairs": {
-   "value": 78872,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-24/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 78187,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_notes": {
-   "value": 22548,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-24/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 22497,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_blocker_free": {
-   "value": 552,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-24/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 553,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_valid": {
-   "value": 1866,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-24/<vol>.json (adart/audit.py, L0-L8) (no L0-DTD finding)"
+   "value": 1861,
+   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8) (no L0-DTD finding)"
   },
   "ed_rules": {
    "value": 67,
@@ -202,32 +206,36 @@
    "source": "pdai/collections/diaries/config/audit_rules_tablet.yaml"
   },
   "br_tablets": {
-   "value": 1873,
+   "value": 1868,
    "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build)"
   },
   "br_lines": {
-   "value": 51534,
+   "value": 51149,
    "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build)"
   },
   "br_dated": {
-   "value": 542,
+   "value": 541,
    "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build) (tablet.jyear)"
   },
   "spec_id": {
-   "value": "adrt1-0033",
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "value": "No. −378",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (tablet.no)"
   },
   "spec_page": {
    "value": 90,
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json"
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (line.pidx + 1 of line 9′: the viewer's page number)"
   },
   "spec_l9": {
-   "value": "[last part of the night, the moon] stood 2 ½ cubits behind Saturn to the east. The 22nd, Mercury's first appearance in the east in Sagittarius. Around the 22nd, when Mars [became stationary] in the west [....]",
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (lines.translation)"
+   "value": "[last part of the night, the moon] stood 2 ½ cubits behind Saturn to the east. The 22nd, Mercury´s first appearance in the east in Sagittarius. Around the 22nd, when Mars [became stationary] in the west [……]",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (line.tr)"
   },
   "spec_l12": {
-   "value": "[....] .... The 28th, .... [....] the equivalent (of 1 shekel of silver was): barley, 1 pān 2 sūt 4 ½ qa, at the end [of the month, ....]",
-   "source": "PDAI diaries: diaries.duckdb (lines, tablets, plates), diaries.bib, <vol>/pdai-config.json, status.json (lines.translation)"
+   "value": "[……] ….. The 28th, …. […] the equivalent (of 1 shekel of silver was): barley, 1 pān 2 sūt 4 ½ qa, at the end [of the month, ....]",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (line.tr)"
+  },
+  "spec_url": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt1/T-378",
+   "source": "segment viewer address"
   },
   "bab_docs": {
    "value": 22,
@@ -252,10 +260,38 @@
   "bab_big": {
    "value": 15,
    "source": "PDAI babylonian-astronomy: works with at least 100 page folders"
+  },
+  "first_tablet_adrt1": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt1/T-651",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (first edition with number and lines)"
+  },
+  "first_tablet_adrt2": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt2/T-260",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (first edition with number and lines)"
+  },
+  "first_tablet_adrt3": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt3/T-163",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (first edition with number and lines)"
+  },
+  "first_tablet_adrt4": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt4/T-477",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (first edition with number and lines)"
+  },
+  "first_tablet_adrt5": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt5/T1",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (first edition with number and lines)"
+  },
+  "first_tablet_adrt6": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt6/T1",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (first edition with number and lines)"
+  },
+  "first_tablet_adrt7": {
+   "value": "https://famulus.lettre.ai/babylon/tafel/adrt7/T1",
+   "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (first edition with number and lines)"
   }
  },
  "notes": [
-  "Volumes I to III number their tablets by year; the readable year numbers cover only part of the tablet rows (see dia_dated_123 versus dia_tablets_123).",
+  "Volumes I to III number their tablets by year; dia_dated_123 of dia_tablets_123 tablet editions with lines carry a year.",
   "Five files Hungernd..Hungernde carry the title of the Astronomical Diaries without a volume statement; their assignment to volumes is open."
  ]
 }
