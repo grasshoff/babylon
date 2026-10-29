@@ -10,8 +10,8 @@
   <meta property="og:description" content="Portal zu den digitalisierten Astronomical Diaries and Related Texts from Babylonia und zu den Sammlungen Babylonische Astronomie und Neugebauer in der PDAI.">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/fonts.css?v=20261029181227">
-  <link rel="stylesheet" href="assets/landing.css?v=20261029181227">
+  <link rel="stylesheet" href="assets/fonts.css?v=20261029181615">
+  <link rel="stylesheet" href="assets/landing.css?v=20261029181615">
 <!-- famulus:publisher:start -->
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta name="publisher" content="OpenScienceTechnology GmbH">
@@ -42,7 +42,7 @@
         <p class="byline">Gerd Graßhoff, Humboldt-Universität zu Berlin, Forschungsinstitut des Deutschen Museums</p>
         <p class="credit">Grundlage ist die Ausgabe von Abraham J. Sachs und Hermann Hunger, Astronomical Diaries and Related Texts from Babylonia, Wien: Österreichische Akademie der Wissenschaften, 1988 bis 2022. Die Rechte an den Vorlagen und den Digitalisaten sind nicht geklärt; diese Seite zeigt nur Ausschnitte und kurze Zitate.</p>
         
-        <div class="figures" style="--cols:5" aria-label="Der Bestand in Zahlen"><div><span class="v">7</span><span class="k">Textbände</span></div><div><span class="v">51.149</span><span class="k">Zeilen erschlossen</span></div><div><span class="v">1.723</span><span class="k">Tafeln</span></div><div><span class="v">1.213</span><span class="k">Bildtafel-Einträge</span></div><div><span class="v">22</span><span class="k">Werke im Umfeld</span></div></div>
+        <div class="figures" style="--cols:5" aria-label="Der Bestand in Zahlen"><div><span class="v">7</span><span class="k">Textbände</span></div><div><span class="v">51.149</span><span class="k">Zeilen erschlossen</span></div><div><span class="v">1.723</span><span class="k">Tafeln mit Text</span></div><div><span class="v">1.213</span><span class="k">Bildtafel-Einträge</span></div><div><span class="v">22</span><span class="k">Werke im Umfeld</span></div></div>
         <form class="ask" action="https://famulus.lettre.ai/live/diaries/" method="get" target="_blank" rel="noopener" aria-label="Eine Frage an die Edition">
           <label for="ask-babylon">Eine Frage an die Edition</label>
           <div class="ask-row"><input id="ask-babylon" name="anfrage" type="text" required minlength="3" placeholder="z. B. Welche Hauptthemen behandeln die Bände je Jahrzehnt?" autocomplete="off">
@@ -81,7 +81,7 @@
 <article class="portal" id="referenz">
 <p class="mark">Referenzedition</p>
 <h2>Der Stand der Prüfung</h2>
-<p>Für die Bände I bis VII liegen 1.868 Tafeln als XML-Edition mit 51.149 Zeilen vor. Keine Tafel ist als geprüft freigegeben; die Prüfung meldet 42.285 Blocker, die Arbeitsliste für die zweite Lesung.</p>
+<p>Für die Bände I bis VII liegen 1.868 Tafeln als XML-Edition mit 51.149 Zeilen vor (1.723 davon mit Text, die übrigen sind Köpfe ohne erhaltene Zeilen). Keine Tafel ist als geprüft freigegeben; die Prüfung meldet 42.285 Blocker, die Arbeitsliste für die zweite Lesung.</p>
 <p class="go-row"><a class="go" href="tagebuecher/#b5">Zur Referenzedition</a></p>
 </article>
 <article class="portal" id="tafeln">
@@ -129,10 +129,10 @@
     <div class="wrap"></div>
   </footer>
 
-  <script src="assets/vendor/d3.v7.min.js?v=20261029181227"></script>
-  <script src="data/bundle.js?v=20261029181227"></script>
-  <script src="assets/js/charts.js?v=20261029181227"></script>
-  <script src="assets/js/scrolly.js?v=20261029181227"></script>
+  <script src="assets/vendor/d3.v7.min.js?v=20261029181615"></script>
+  <script src="data/bundle.js?v=20261029181615"></script>
+  <script src="assets/js/charts.js?v=20261029181615"></script>
+  <script src="assets/js/scrolly.js?v=20261029181615"></script>
 <!-- famulus:publisher:start -->
 <p class="famulus-publisher" style="max-width:46rem;margin:2.5rem auto 1.5rem;padding:.7rem 16px 0;border-top:2px solid #c8a22a;font:13px/1.5 -apple-system,BlinkMacSystemFont,sans-serif;opacity:.8">Herausgegeben von der OpenScienceTechnology GmbH · <a href="/impressum/">Impressum</a> · <a href="/datenschutz/">Datenschutz</a></p>
 <script>(function(){try{var C="https://lettre.ngrok.dev/famulus-counter/api/hit",L=C.replace(/hit$/,'leave'),q=new URLSearchParams(location.search),v=Math.random().toString(36).slice(2,12),u=location.pathname;function S(a,b){navigator.sendBeacon?navigator.sendBeacon(a,b):fetch(a,{method:'POST',body:b,keepalive:true,mode:'no-cors'})}S(C,JSON.stringify({u:u,r:document.referrer,m:"",v:v,c:q.get('c')||q.get('utm_campaign')||''}));var a=0,t=document.visibilityState=='visible'?Date.now():0,s=0,x='',g='',k='';function sc(){var h=document.documentElement;s=Math.max(s,Math.min(100,Math.round((scrollY+innerHeight)/Math.max(h.scrollHeight,1)*100)))}addEventListener('scroll',sc,{passive:true});addEventListener('load',sc);sc();document.addEventListener('click',function(e){var l=e.target.closest&&e.target.closest('a[href]');if(l&&/^https?:$/.test(l.protocol)){var i=l.host==location.host;x=i?'in':'out';g=i?l.pathname+l.hash:l.host;k=(l.getAttribute('aria-label')||l.textContent||'').replace(/\s+/g,' ').trim().slice(0,80);B()}},true);function B(){S(L,JSON.stringify({u:u,v:v,d:Math.round((a+(t?Date.now()-t:0))/1000),s:s,x:x,t:g,k:k}))}function F(){if(t){a+=Date.now()-t;t=0}B()}document.addEventListener('visibilitychange',function(){document.visibilityState=='hidden'?F():t=Date.now()});addEventListener('pagehide',function(){if(t)F()})}catch(e){}})();</script>
