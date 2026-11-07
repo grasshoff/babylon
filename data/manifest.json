@@ -18,7 +18,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_lines": {
-   "value": 51149,
+   "value": 42399,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "dia_tablets": {
@@ -38,7 +38,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line (<vol>/pages: meta model pdf-text-layer)"
   },
   "lines_adrt1": {
-   "value": 3429,
+   "value": 2930,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt1": {
@@ -46,7 +46,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt2": {
-   "value": 6027,
+   "value": 4660,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt2": {
@@ -54,7 +54,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt3": {
-   "value": 7088,
+   "value": 5497,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt3": {
@@ -62,7 +62,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt4": {
-   "value": 12433,
+   "value": 11485,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt4": {
@@ -70,7 +70,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt5": {
-   "value": 9039,
+   "value": 6800,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt5": {
@@ -78,7 +78,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt6": {
-   "value": 7885,
+   "value": 6286,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt6": {
@@ -86,7 +86,7 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "lines_adrt7": {
-   "value": 5248,
+   "value": 4741,
    "source": "PDAI diaries: diaries_browse.duckdb (tablet editions: tablet, line, plate), diaries.bib, <vol>/pdai-config.json; tablets = editions with at least one line"
   },
   "pages_adrt7": {
@@ -146,23 +146,23 @@
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_lines": {
-   "value": 51149,
+   "value": 42399,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_tokens": {
-   "value": 423735,
+   "value": 428589,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_comments": {
-   "value": 709,
+   "value": 716,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_comments_anchored": {
-   "value": 216,
+   "value": 228,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (adart_comment.target_fr_id: anchored to a line)"
   },
   "ed_cal_rows": {
-   "value": 635,
+   "value": 636,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_dual": {
@@ -174,28 +174,28 @@
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml)"
   },
   "ed_open_tickets": {
-   "value": 7793,
+   "value": 7961,
    "source": "PDAI diaries: diaries_famulus.duckdb (adart_* tables, built from <vol>/editions/*.xml) (adart_ticket)"
   },
   "ed_blockers": {
-   "value": 42285,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 39106,
+   "source": "PDAI diaries: quality/tablet_audit/2026-11-02/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_repairs": {
-   "value": 78187,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 66309,
+   "source": "PDAI diaries: quality/tablet_audit/2026-11-02/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_notes": {
-   "value": 22497,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 34080,
+   "source": "PDAI diaries: quality/tablet_audit/2026-11-02/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_blocker_free": {
-   "value": 553,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8)"
+   "value": 572,
+   "source": "PDAI diaries: quality/tablet_audit/2026-11-02/<vol>.json (adart/audit.py, L0-L8)"
   },
   "ed_valid": {
-   "value": 1861,
-   "source": "PDAI diaries: quality/tablet_audit/2026-10-29/<vol>.json (adart/audit.py, L0-L8) (no L0-DTD finding)"
+   "value": 1860,
+   "source": "PDAI diaries: quality/tablet_audit/2026-11-02/<vol>.json (adart/audit.py, L0-L8) (no L0-DTD finding)"
   },
   "ed_rules": {
    "value": 67,
@@ -210,11 +210,11 @@
    "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build)"
   },
   "br_lines": {
-   "value": 51149,
+   "value": 42399,
    "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build)"
   },
   "br_dated": {
-   "value": 541,
+   "value": 542,
    "source": "PDAI diaries: diaries_browse.duckdb (tafel-browser build) (tablet.jyear)"
   },
   "spec_id": {
